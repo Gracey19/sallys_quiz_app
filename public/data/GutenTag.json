@@ -1,0 +1,20 @@
+{
+  "topic": "Guten Tag",
+  "context": "Elke ist Krankenschwester. Sie kommt aus Deutschland und lebt jetzt mit ihrem Mann Hawi in Nairobi, Kenia. Elke möchte die kenianische Kultur kennenlernen. Heute trifft sie ihre Nachbarin Zawadi. Zawadi ist sehr freundlich und möchte Deutsch lernen, um Elke willkommen zu heißen.",
+  "dialogue": [
+    { "speaker": "Zawadi", "line": "Guten Morning, mein Name ist Zawadi, ich komme aus hier in Nairobi" },
+    { "speaker": "Elke", "line": "(Lacht leise) Schön, dich kennenzulernen Zawadi, ich heiße Elke. Ich komme aus Berlin, in Deutschland. Aber das richtige Wort ist", "options": ["Guten Abend", "Guten Morgen", "Guten Nachmittag"], "correct": "Guten Morgen" },
+    { "speaker": "Zawadi", "line": "Danke Elke. Was sage ich am Nachmittag?" },
+    { "speaker": "Elke", "line": "Ach so! Am Nachmittag sagt man", "options": ["Guten Abend", "Guten Morgen", "Guten Nachmittag"], "correct": "Guten Nachmittag" },
+    { "speaker": "Zawadi", "line": "Okay, Dankeschön! Wie geht es uns?" },
+    { "speaker": "Elke", "line": "(lächelnd) Zawadi! Du fragst mich. Es ist Wie geht es", "options": ["Ihr", "dir", "euch"], "correct": "dir" },
+    { "speaker": "Zawadi", "line": "Vielen Dank für die _____. Ich werde es noch einmal versuchen, Wie geht es dir?", "options": ["Fehler", "Korrektur", "Begrüßung"], "correct": "Korrektur" },
+    { "speaker": "Elke", "line": "Mir geht es______, und _____?", "options": ["Schnell, euch", "Gut, Ihr", "Gut, dir"], "correct": "Gut, dir" },
+    { "speaker": "Zawadi", "line": "Gut auch, danke" },
+    { "speaker": "Elke", "line": "Super! Du lernst schnell Zawadi" },
+    { "speaker": "Zawadi", "line": "Jetzt möchte ich sagen, ‘Have a lovely day’" },
+    { "speaker": "Elke", "line": "Okay, das ist einfach, man sagt", "options": ["Haben Sie einen schönen Tag", "Habt einen schönen Tag", "Einen schönen Tag"], "correct": "Habt einen schönen Tag" },
+    { "speaker": "Zawadi", "line": "Dankeschön, Elke. Ich habe heute viel gelernt. Habt einen schönen Tag, bye!" },
+    { "speaker": "Elke", "line": "_____", "options": ["Auf Wiederhören", "Auf Wiedersehen"], "correct": "Auf Wiedersehen" }
+  ]
+}
