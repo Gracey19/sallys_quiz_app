@@ -1,2 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --color-nairobi-dark: #335E40;
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+body {
+  margin: 0;
+  padding: 0;
+}
+

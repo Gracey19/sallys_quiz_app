@@ -105,3 +105,24 @@ Quiz page: /gutentag → loads the GutenTag component, which fetches and renders
 
 Placeholder tile: Clicking the Guten Tag tile routes directly to /gutentag, displaying the dialogue and questions.
 
+# Step 7 - Adding Dark Mode and Cleaning up the Design
+
+Dark Mode Toggle: I built a theme switch in App.jsx using useState and useEffect. It works by adding a "dark" class to the very top of the app, which Tailwind uses to switch colors everywhere at once.
+
+To Remember: I used localStorage so the app remembers if the user picked Light or Dark mode, even if they refresh the page or come back later.
+
+Fixing the Backgrounds: I moved the background colors out of the individual pages and put them into one "Main Shell" in App.jsx. This fixed the annoying white "flashes" that happened when switching between pages.
+
+Color Palette Adjustement: I changed the main background from pinkish (#F0E2DF) to a clean white. It looks much more modern, cleaner and makes the texts more visible.
+
+Interactiveness:
+
+I added a "pop" effect to the A1 category cards. Now, when you hover over them, they grow slightly (hover:scale-105), making them feel more like a real deck of cards.
+
+In Dark Mode, I boosted the brightness of the images slightly so they don't look dull against the dark green background.
+
+Quiz Page Updates:
+
+I updated the quiz buttons to use bright green for "Correct" and bright red for "Wrong." These colors pop much better in both light and dark modes.
+
+Faster Navigation: I changed regular links for React Router <Link> tags. This makes moving between pages feel smoother, without the browser having to reload the whole site.
