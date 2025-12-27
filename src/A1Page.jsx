@@ -8,7 +8,7 @@ function A1Page() {
       <header className="flex items-center justify-between px-4 md:px-8 py-5">
         <Link
           to="/home"
-          className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-[#335E40] dark:text-white hover:underline whitespace-nowrap leading-none mb-0.5"
+          className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-nairobi-dark dark:text-white hover:underline whitespace-nowrap leading-none mb-0.5"
         >
           Home
         </Link>
@@ -22,13 +22,13 @@ function A1Page() {
         <div className="flex items-center gap-4 md:gap-8">
           <Link
             to="/test"
-            className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-[#335E40] dark:text-white hover:underline whitespace-nowrap leading-none"
+            className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-nairobi-dark dark:text-white hover:underline whitespace-nowrap leading-none"
           >
             Test yourself
           </Link>
           <Link
             to="/about"
-            className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-[#335E40] dark:text-white hover:underline leading-none"
+            className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-nairobi-dark dark:text-white hover:underline leading-none"
           >
             About
           </Link>

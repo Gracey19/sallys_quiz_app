@@ -126,3 +126,4 @@ Quiz Page Updates:
 I updated the quiz buttons to use bright green for "Correct" and bright red for "Wrong." These colors pop much better in both light and dark modes.
 
 Faster Navigation: I changed regular links for React Router <Link> tags. This makes moving between pages feel smoother, without the browser having to reload the whole site.
+

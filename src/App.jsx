@@ -29,13 +29,13 @@ return (
       <div className="p-4 flex justify-end">
         <button
           onClick={toggleTheme}
-          className="px-4 py-2 rounded-full font-bold border-2 border-[#335E40] bg-[#335E40] text-white dark:bg-white dark:text-[#335E40] dark:border-white shadow-lg"
+          className="px-4 py-2 rounded-full font-bold border-2 border-nairobi-dark bg-nairobi-dark text-white dark:bg-white dark:text-nairobi-dark dark:border-white shadow-lg"
         >
           {theme === "light" ? "🌙 Dark" : "☀️ Light"}
         </button>
       </div>
 
-      <div className="flex-grow">
+      <div className="flex-grow: 1;">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/home" element={<HomePage />} />

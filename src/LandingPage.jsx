@@ -4,7 +4,7 @@ function LandingPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="p-6 h-full flex flex-col items-center justify-center text-[#335E40] dark:text-white">
+    <div className="p-6 h-full flex flex-col items-center justify-center text-nairobi-dark dark:text-white">
       <img
         src="/images/logo/sallys_logo.png"
         alt="Sally's Quiz App logo"

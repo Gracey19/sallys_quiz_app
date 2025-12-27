@@ -8,7 +8,7 @@ function HomePage() {
       <header className="flex items-center justify-between px-4 md:px-8 py-5">
         <Link
           to="/home"
-          className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-[#335E40] dark:text-white hover:underline whitespace-nowrap leading-none mb-0.5"
+          className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-nairobi-dark dark:text-white hover:underline whitespace-nowrap leading-none mb-0.5"
         >
           Home
         </Link>
@@ -22,13 +22,13 @@ function HomePage() {
         <div className="flex items-center gap-4 md:gap-8">
           <Link
             to="/test"
-            className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-[#335E40] dark:text-white hover:underline whitespace-nowrap leading-none"
+            className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-nairobi-dark dark:text-white hover:underline whitespace-nowrap leading-none"
           >
             Test yourself
           </Link>
           <Link
             to="/about"
-            className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-[#335E40] dark:text-white hover:underline leading-none"
+            className="text-xs md:text-sm font-medium tracking-wide font-montserrat text-nairobi-dark dark:text-white hover:underline leading-none"
           >
             About
           </Link>
@@ -37,7 +37,7 @@ function HomePage() {
 
       <main className="flex justify-center px-6 py-12">
         <div className="max-w-3xl text-left">
-          <p className="text-[20px] font-montserrat text-[#335E40] dark:text-white font-medium text-center leading-relaxed mb-10">
+          <p className="text-[20px] font-montserrat text-nairobi-dark dark:text-white font-medium text-center leading-relaxed mb-10">
             Welcome to your German grammar testing hub! This site is designed for learners at the A1 and A2 levels who want to challenge themselves with short, focused quizzes. Whether you're brushing up before an exam or just curious about your progress, we welcome you to practice, reflect, and grow. Enjoy!
           </p>
 
