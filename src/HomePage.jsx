@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
-    /* removed min-h-screen and bg-white so App.jsx background shows through */
+
     <div className="w-full">
-      {/* Header */}
+    
       <header className="flex items-center justify-between px-4 md:px-8 py-5">
         <Link
           to="/home"

@@ -32,7 +32,6 @@ function GutenTag() {
 
   return (
     <div className="w-full transition-colors duration-300">
-      {/* Header */}
       <header className="flex items-center justify-between px-4 md:px-8 py-5">
         <Link to="/home" className="text-xs md:text-sm font-medium text-[#335E40] dark:text-white hover:underline">
           Home
@@ -77,7 +76,6 @@ function GutenTag() {
                     const isSelected = answer?.selected === opt;
                     const isCorrect = answer?.isCorrect;
 
-                    // Dynamic styling for buttons
                     let buttonStyles = "border-2 border-[#335E40] dark:border-white text-[#335E40] dark:text-white bg-transparent";
                     
                     if (isSelected) {

@@ -4,9 +4,9 @@ function TestYourself() {
   const navigate = useNavigate();
 
   return (
-    /* 1. Removed bg-white and min-h-screen to let App.jsx background show through */
+    /* 1. I removed bg-white and min-h-screen to let App.jsx background show */
     <div className="w-full">
-      {/* Header */}
+    
       <header className="flex items-center justify-between px-4 md:px-8 py-5">
         <Link
           to="/home"
@@ -38,7 +38,7 @@ function TestYourself() {
       </header>
 
       <div className="text-center px-6">
-        {/* 2. Removed style={{color}} and replaced with Tailwind classes */}
+      
         <h1 className="text-[20px] font-semibold font-montserrat mb-8 text-[#335E40] dark:text-white">
           Quiz me baby, one more time!
         </h1>
@@ -49,7 +49,6 @@ function TestYourself() {
         </h2>
       </div>
 
-      {/* Buttons Container */}
       <div className="flex flex-col items-center gap-12 pb-24">
         <img 
           src="/images/icons/a1_butt.svg" 
